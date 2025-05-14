@@ -1,0 +1,16 @@
+# Bỏ node_modules vì sẽ cài lại trong Docker
+node_modules
+
+# Không cần dist vì Docker sẽ build lại
+dist
+
+# Bỏ thư mục Git
+.git
+.gitignore
+
+# Bỏ file môi trường nếu không muốn đưa vào container
+.env
+
+# Các file đọc cho developer
+README.md
+*.log
